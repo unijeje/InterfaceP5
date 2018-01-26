@@ -1,0 +1,186 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head> 
+
+	<title> Guardería Mallén Rodríguez</title>
+	<link href="https://fonts.googleapis.com/css?family=Droid+Sans%7CFira+Sans%7CLato%7CRosarivo%7CUbuntu" rel="stylesheet"> 
+	<!--
+	font-family: 'Fira Sans', sans-serif;
+    font-family: 'Rosarivo', serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Droid Sans', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
+	-->
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../estilos.css">
+
+</head>
+<body>
+	<audio controls>
+		<source src="../multimedia/Gymnopedies.mp3" type="audio/mpeg">
+		Your browser does not support the audio element.
+	</audio>
+	<div class="jumbotron">
+		<div class="row">
+			<div class="col-4 offset-5 col-sm-4 offset-sm-5 col-lg-1 offset-lg-0">
+				<img src="../img/Logo.png" alt="logo" class="rounded-circle" id="logo">
+			</div>
+			<div class="col-12 offset-12 col-sm-12 offset-sm-12 col-lg-3 offset-lg-3">
+				<h1 class="display-3 text-center text-white">Guardería Mallén Rodríguez</h1>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid">
+		<div class="row">
+			<div id="menu" class="col-12 col-sm-12 offset-sm-0 col-lg-8 offset-lg-2 col-xl-6 offset-xl-3">
+				<nav class="navbar navbar-expand-md bg-success navbar-light" >
+					<a class="navbar-brand" href="#" >Sobre nosotros</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="collapsibleNavbar">
+						<ul class="navbar-nav">
+							<li class="nav-item">
+								<a class="nav-link"  href="../index.html">Inicio </a>
+							</li>
+							<li class="nav-item">
+									<a class="nav-link" href="historia.html">Historia</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="localizacion.html">Localización</a>
+							</li> 
+							<li class="nav-item" >
+								<a class="nav-link"  href="servicios.html">Servicios  </a>
+							</li>    
+						</ul>
+					</div>  
+				</nav>
+			</div>
+		</div>
+		<div class="row">
+			<video class="col-12 col-sm-12 offset-sm-0 col-lg-8 offset-lg-2 col-xl-6 offset-xl-3 my-3 "  controls autoplay> <!--VIDEO-->
+				<source src="../multimedia/video_guarderia.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+			</video> 
+		</div>
+
+		<div class="row">
+			<div id="izquierda" class="col-lg-2 col-xl-2 d-none d-lg-block">
+				<picture>
+					<source srcset="../img/open-book-min.png" alt="" width="256" height="256" class="img-fluid"  media="(max-width:1200px)">
+					<source srcset="../img/open-book.png" alt="" width="256" height="256" class="img-fluid">
+					<img src="../img/open-book.png" alt="" width="256" height="256" class="img-fluid">
+				</picture>
+				<div class="h-25"></div>
+				<picture>
+					<source srcset="../img/school-material-min.png" alt="" width="256" height="256" class="img-fluid"  media="(max-width:1200px)">
+					<source srcset="../img/school-material.png" alt="" width="256" height="256" class="img-fluid" >
+					<img src="../img/school-material.png" alt="" width="256" height="256" class="img-fluid">
+				</picture>
+			</div>
+
+	
+
+			<div id="contenido" class="text-justify col-12 col-sm-12 offset-sm-0 col-lg-8 offset-lg-0 col-xl-6 offset-xl-1 my-5">
+
+				<p>
+					
+
+					<div id="carousel_colegio" class="carousel slide float-md-right ml-4 mb-3" data-ride="carousel">
+						<!-- Indicadores -->
+						<ul class="carousel-indicators">
+							<li data-target="#carousel_colegio" data-slide-to="0" class="active"></li>
+							<li data-target="#carousel_colegio" data-slide-to="1"></li>
+							<li data-target="#carousel_colegio" data-slide-to="2"></li>
+							<li data-target="#carousel_colegio" data-slide-to="3"></li>
+						</ul>
+						
+						<!-- The slideshow -->
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+							<picture>
+								<source srcset="../img/aula2-min.jpg" alt="Aula 2" width="390" height="350" class="img-fluid"  media="(max-width:1200px)">
+								<source srcset="../img/aula2.jpg" alt="Aula 2" width="390" height="350" class="img-fluid">
+								<img src="../img/aula2.jpg" alt="Aula 2" width="390" height="350" class="img-fluid">
+							</picture>
+							</div>
+							<div class="carousel-item">
+								<picture>
+									<source srcset="../img/aula-min.jpg" alt="Aula 2" width="390" height="350" class="img-fluid"  media="(max-width:1200px)">
+									<source srcset="../img/aula.jpg" alt="Aula 2" width="390" height="350" class="img-fluid">
+									<img src="../img/aula.jpg" alt="Aula" width="390" height="350" class="img-fluid">
+								</picture>
+							</div>
+							<div class="carousel-item">
+								<picture>
+									<source srcset="../img/patio-min.jpg" alt="Aula 2" width="390" height="350" class="img-fluid"  media="(max-width:1200px)">
+									<source srcset="../img/patio.jpg" alt="Aula 2" width="390" height="350" class="img-fluid">
+									<img src="../img/patio.jpg" alt="Patio" width="390" height="350" class="img-fluid">
+								</picture>
+							</div>
+							<div class="carousel-item">
+								<picture>
+									<source srcset="../img/piscina-min.jpg" alt="Aula 2" width="390" height="350" class="img-fluid"  media="(max-width:1200px)">
+									<source srcset="../img/piscina.jpg" alt="Aula 2" width="390" height="350" class="img-fluid">
+									<img src="../img/piscina.jpg" alt="Piscina" width="390" height="350" class="img-fluid">
+								</picture>
+							</div>
+						</div>
+						
+						<!-- Controles izquierda y derecha -->
+						<a class="carousel-control-prev" href="#carousel_colegio" data-slide="prev">
+							<span class="carousel-control-prev-icon"></span>
+						</a>
+						<a class="carousel-control-next" href="#carousel_colegio" data-slide="next">
+							<span class="carousel-control-next-icon"></span>
+						</a>
+					</div>
+					Guardería Mallén Rodríguez es un centro de educación infantil de primer ciclo de carácter privado.
+					<br/>
+					Su Proyecto educativo va dirigido a contribuir al desarrollo integral de los pequeños ofreciéndoles  recursos metodológicos y didácticos racionales, graduales, amenos y divertidos, en los que el juego  y la actividad son el eje central.  Siempre dentro de un ambiente de cariño y respeto.
+					
+				</p>
+
+				<p class="text-justify">
+					Situado en la Plaza Doctora Álvarez Silván 1 (Bami), en Sevilla, nuestro centro cuenta con un edificio con dos plantas en la que distribuimos nuestros tres niveles educativos:
+					<br/>
+					En la planta baja nos encontramos con dos clases de un año y una de dos años, así como dirección, cocina y comedor. En la planta alta, a la que se accede por escalera o ascensor,  están ubicadas otras dos clases de dos años, una de un año y otra de cero años. También se encuentra ahí el despacho de nuestra psicóloga, en el que resuelve vuestras dudas y preocupaciones sobre la educación y el bienestar de vuestros hijos.
+					<br/>
+					Nuestra escuela cuenta con cocina propia en la que elaboramos diariamente el menú que comerán los niños (no catering). Dicho menú está supervisado por un equipo de nutricionistas (ASEMED Nutrición). Pasamos controles periódicos por parte del Ayuntamiento y cumpliendo la normativa vigente.
+					<br/>
+					Así mismo, nuestro centro está asistido por la empresa KeyControl, la cual se encarga de desinsectar y desratizar nuestras instalaciones además de llevar un control en nuestro sistema de conducción de agua para evitar enfermedades como la Legionella.
+					<br/>
+					Nuestros alumnos disfrutan del aire libre en nuestros espaciosos recreos, independientes para cada nivel.
+				</p>
+			</div>
+
+			
+
+			<div id="derecha" class="col-lg-2 offset-lg-0 col-xl-2 offset-xl-1 d-none d-lg-block">
+				<picture>
+					<source srcset="../img/telescope-min.png" alt="" width="256" height="256" class="img-fluid"  media="(max-width:1200px)"/>
+					<source srcset="../img/telescope.png" alt="" width="256" height="256" class="img-fluid"/>
+					<img src="../img/telescope.png" alt="" width="256" height="256" class="img-fluid"/>
+				</picture>
+				<div class="h-25"></div>
+				<picture>
+					<source srcset="../img/bookshelf-min.png" alt="" width="256" height="256" class="img-fluid"  media="(max-width:1200px)"/>
+					<source srcset="../img/bookshelf.png" alt="" width="256" height="256" class="img-fluid"/>
+					<img src="../img/bookshelf.png" alt="" width="256" height="256" class="img-fluid">	
+				</picture>
+			</div>
+		</div>
+	</div>
+
+	
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+     

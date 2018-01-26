@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head> 
+
+	<title> Guardería Mallén Rodríguez</title>
+	<link href="https://fonts.googleapis.com/css?family=Droid+Sans%7CFira+Sans%7CLato%7CRosarivo%7CUbuntu" rel="stylesheet"> 
+	<!--
+	font-family: 'Fira Sans', sans-serif;
+    font-family: 'Rosarivo', serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Droid Sans', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
+	-->
+
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../estilos.css">
+
+</head>
+<body>
+	<audio controls autoplay>
+		<source src="../multimedia/Gymnopedies.mp3" type="audio/mpeg">
+		Your browser does not support the audio element.
+	</audio>
+	<div class="jumbotron">
+		<div class="row">
+			<div class="col-4 offset-5 col-sm-4 offset-sm-5 col-lg-1 offset-lg-0">
+				<img src="../img/Logo.png" alt="logo" class="rounded-circle" id="logo">
+			</div>
+			<div class="col-12 offset-12 col-sm-12 offset-sm-12 col-lg-3 offset-lg-3">
+				<h1 class="display-3 text-center text-white">Guardería Mallén Rodríguez</h1>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid">
+		<div class="row">
+			<div id="menu" class="col-12 col-sm-12 offset-sm-0 col-lg-8 offset-lg-2 col-xl-6 offset-xl-3">
+				<nav class="navbar navbar-expand-md bg-success navbar-light" >
+					<a class="navbar-brand" href="#">Localización</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="collapsibleNavbar">
+						<ul class="navbar-nav">
+							<li class="nav-item">
+								<a class="nav-link"  href="../index.html">Inicio </a>
+							</li>
+							<li class="nav-item" >
+								<a class="nav-link" href="nosotros.html" >Sobre nosotros</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="historia.html">Historia</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="servicios.html">Servicios</a>
+							</li>      
+						</ul>
+					</div>  
+				</nav>
+			</div>
+		</div>
+
+
+		<div class="row">
+			<div id="izquierda" class="col-lg-2 col-xl-2 d-none d-lg-block">
+				<picture>
+					<source srcset="../img/open-book-min.png" alt="" width="256" height="256" class="img-fluid"  media="(max-width:1200px)">
+					<source srcset="../img/open-book.png" alt="" width="256" height="256" class="img-fluid">
+					<img src="../img/open-book.png" alt="" width="256" height="256" class="img-fluid">
+				</picture>
+				<div class="h-25"></div>
+				<picture>
+					<source srcset="../img/school-material-min.png" alt="" width="256" height="256" class="img-fluid"  media="(max-width:1200px)">
+					<source srcset="../img/school-material.png" alt="" width="256" height="256" class="img-fluid" >
+					<img src="../img/school-material.png" alt="" width="256" height="256" class="img-fluid">
+				</picture>
+			</div>
+
+			<div id="contenido" class="col-12 col-sm-12 offset-sm-0 col-lg-8 offset-lg-0 col-xl-6 offset-xl-1 mt-5">
+
+				<div class="card bg-info mb-5"> 
+					<picture>
+						<source class="card-img-top" srcset="../img/loc-min.png" alt="Localización" id="mapa" media="(max-width:1200px)"/>
+						<source class="card-img-top" srcset="../img/loc.png" alt="Localización" id="mapa">
+						<img class="card-img-top" src="../img/loc.png" alt="Localización" id="mapa">
+					</picture>
+					
+					<div class="card-body">
+						<p class="text-center font-weight-bold mt-3">Via Flaminia, S/N. Dos Hermanas, Sevilla</p>
+						<p class="text-center font-weight-bold">Teléfono: 674087XXX </p>
+						<p class="text-center font-weight-bold">Codigo Postal: 41089 </p>
+					</div>
+				</div>
+			</div>
+			
+
+			<div id="derecha" class="col-lg-2 offset-lg-0 col-xl-2 offset-xl-1 d-none d-lg-block">
+				<picture>
+					<source srcset="../img/telescope-min.png" alt="" width="256" height="256" class="img-fluid"  media="(max-width:1200px)"/>
+					<source srcset="../img/telescope.png" alt="" width="256" height="256" class="img-fluid"/>
+					<img src="../img/telescope.png" alt="" width="256" height="256" class="img-fluid"/>
+				</picture>
+				<div class="h-25"></div>
+				<picture>
+					<source srcset="../img/bookshelf-min.png" alt="" width="256" height="256" class="img-fluid"  media="(max-width:1200px)"/>
+					<source srcset="../img/bookshelf.png" alt="" width="256" height="256" class="img-fluid"/>
+					<img src="../img/bookshelf.png" alt="" width="256" height="256" class="img-fluid">	
+				</picture>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+     

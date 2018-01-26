@@ -1,0 +1,129 @@
+﻿.jumbotron{
+	background-image: url("img/cabecera.png") ;
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+}
+.display-3{
+	margin-top: -10%;
+}
+body{
+	background-color:#FFC99C;
+	font-family: 'Rosarivo', serif;
+	font-size: 1em;
+}
+h4{
+	font-family: 'Lato', sans-serif;
+}
+#menu{
+	font-family: 'Fira Sans', sans-serif;
+}
+#noticia .card{
+	background-color: #FFC99C;
+}
+
+/*ANIMACIONES IMG*/
+#izquierda, #derecha
+{
+	z-index: 1;
+	
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+}
+#izquierda
+{
+	animation-name: imagenes_izq;
+}
+
+@keyframes imagenes_izq{
+    0%
+    {
+    	top:-1500px;
+		left:500px;
+    	transform: scale(0.1, 0.1);
+    }
+    25%
+    {
+    	top:-500px;
+		left:500px;
+    	transform: scale(0.3, 0.3);
+    }
+    50%
+    {
+    	top:0;
+		left:500px;
+    	transform: scale(0.5, 0.5);
+    }
+    75%
+    {
+    	top:0;
+		left:0;
+    	transform: scale(0.7, 0.7);
+    }
+    100%
+     {
+     	top:0;
+		left:0;
+    	transform: scale(1, 1);
+     }
+}
+
+#derecha
+{
+	animation-name: imagenes_der;
+}
+
+@keyframes imagenes_der{
+    0%
+    {
+    	top:-1500px;
+		left:-500px;
+    	transform: scale(0.1, 0.1);
+    }
+    25%
+    {
+    	top:-500px;
+		left:-500px;
+    	transform: scale(0.3, 0.3);
+    }
+    50%
+    {
+    	top:0;
+		left:-500px;
+    	transform: scale(0.5, 0.5);
+    }
+    75%
+    {
+    	top:0;
+		left:0;
+    	transform: scale(0.7, 0.7);
+    }
+    100%
+     {
+     	top:0;
+		left:0;
+    	transform: scale(1, 1);
+     }
+}
+/*****************/
+
+/*Musica*/
+audio
+{
+	width:100%;
+}
+
+@media only screen and (max-width: 990px)
+{
+	#logo{
+		margin-bottom: 50%;
+	}
+}
+
+@media only screen and (max-width: 768px)
+{
+	#contenido #fachada, #contenido #carousel_colegio, .carousel-inner img{
+		margin-left: 0 !important;
+		width:100%;
+		
+	}
+}
